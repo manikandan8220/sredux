@@ -1,10 +1,10 @@
 import { LOGIN, LOGOUT } from './AuthType';
 
-export const Login = (userData) => ({
+export const login = (userData) => ({
   type: LOGIN,
   payload: userData,
 });
 
-export const Logout = () => ({
+export const logout = () => ({
   type: LOGOUT,
 });
